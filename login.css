@@ -54,7 +54,7 @@ section .container{
 }
 
 section .container{
-    align-items: ;
+    align-items: flex-start;
 }
 
 section{
