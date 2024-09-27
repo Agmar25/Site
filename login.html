@@ -13,10 +13,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre nos</a>
+                        <a href="#sobre">Sobre nos</a>
                     </li>
                     <li>
-                        <a href="#">Criar Conta</a>
+                        <a href="#conta">Criar Conta</a>
                     </li>
                     <li>
                         <a href="#">Voltar ao portal de Notícias</a>
@@ -25,7 +25,7 @@
             </nav>
         </div>
     </header>
-    <section>
+    <section id="sobre">
         <div class="container">
             <img class="noticias" src="imagens login/noticias.jpg" alt="noticias">
             <div>
@@ -43,5 +43,41 @@
             </div>
         </div>
     </section>
+    <section id="conta">
+        <div class="container">
+            <h2>Fique por dentro das notícias em primeira mão!</h2>
+            <div class="logar">
+                <div>
+                    <h3>Criar conta</h3>
+                    <form>
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu E-mail" required>
+                        <input type="tel" placeholder="Seu Telefone (Opcional)">
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="acompanhe">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram"></a>
+                            <img src="imagens login/instagram.png" alt="logo Instagram">
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook"></a>
+                            <img src="imagens login/facebook.png" alt="logo Facebook">
+                        </li>
+                    </ul>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Meu Portal de Notícias - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

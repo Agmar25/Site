@@ -11,6 +11,15 @@ header{
     
 }
 
+header,
+section h2, 
+section h3,
+form button{
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 header nav li {
     display: inline;
     margin: 16px;
@@ -47,6 +56,7 @@ section .container{
     display: inline;
     margin-right: 10px;
     margin-left: 16px;
+    cursor: pointer;
 }
 
 .noticias {
@@ -71,3 +81,76 @@ section p{
     margin-bottom: 32px;
     margin-left: 16px;
 }
+
+#conta .container{
+    display: block;
+}
+
+.logar {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h3{
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 16px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #2f3640;
+    color: rgb(239, 241, 244);
+    border: none;
+    cursor:pointer;
+}
+
+form button:hover{
+    background-color: #444545;
+}
+
+input:focus textarea:focus{
+    background-color: #2f3640;
+}
+
+.acompanhe img{
+    height: 40px;
+}
+
+.acompanhe li {
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.acompanhe li a {
+    text-decoration: none;
+}
+
+footer{
+    background-color: #2f3640;
+    color: rgb(239, 241, 244);
+    padding: 16px;
+}
+
+#conta{
+    background-color: #bebfc1;
+}
+
+#sobre{
+    background-color: #bebfc1;
+}
+
