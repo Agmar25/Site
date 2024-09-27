@@ -24,7 +24,8 @@ header nav li a {
     font-family: Arial, Helvetica, sans-serif ;
 }
 
-header .container{
+header .container,
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,9 +34,40 @@ header .container{
 }
 
 .container{
-    width: 1366px;
-    margin: 0 auto;
+    max-width: 1280px;
     width: 100%;
+    margin: 0 auto;
 }
 
+.parcerias img{
+    height: 50px;
+}
 
+.parcerias li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 16px;
+}
+
+.noticias {
+    height: 400px;
+}
+
+section .container{
+    align-items: ;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+section p{
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
